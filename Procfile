@@ -1,1 +1,1 @@
-web: gunicorn hwml:app
+web: gunicorn -b :$PORT hwml:app
